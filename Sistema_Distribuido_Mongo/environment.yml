@@ -1,0 +1,9 @@
+# for use with conda (https://docs.conda.io/en/latest/miniconda.html):
+# conda env create -f environment.yml
+name: "projeto-teste"
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=22
+  - python=3.10
